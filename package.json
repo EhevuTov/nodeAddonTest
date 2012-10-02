@@ -1,0 +1,22 @@
+{
+  "name": "nodeAddonTest",
+  "version": "0.0.0",
+  "description": "A simple Node Addon example from the Node docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EhevuTov/nodeAddonTest.git"
+  },
+  "keywords": [
+    "node",
+    "addon",
+    "example"
+  ],
+  "author": "James Gosnell",
+  "license": "BSD",
+  "gypfile": true
+}
